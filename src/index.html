@@ -8,25 +8,23 @@
     <h1>To Do List</h1>
     <div class="row">
       <div class="col-md-6">
-        <h2>Add a task:</h2>
+        <h2>Add a task below:</h2>
+        <br> <!-- maybe remove this and the one before the button -->
         <form id="new-task">
           <div class="form-group">
-            <label for="new-task">Task</label>
+            <label for="new-task">New Task</label>
             <input type="text" id="newTask">
           </div>
-          <button type="submit">Add Task</button>
+          <br>
+          <button class="btn-dark btn-sm" type="submit">Add Task</button>
         </form>
 
-        <h2>To Do:</h2>
-        <ul id="list">
-        </ul>
-      </div>
-      <div class="col-md-6">
-        <div id="show-list">
-          <p>First Task: <span class="first-task"></span></p>
-          <div id="buttons">
-          </div>
+        <div class="task-list">
+          <h2>To Do:</h2>
+          <ul id="list">
+          </ul>
         </div>
+
       </div>
     </div>
   </div>
